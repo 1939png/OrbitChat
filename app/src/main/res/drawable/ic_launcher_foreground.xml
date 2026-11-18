@@ -1,0 +1,9 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <!-- Pure white on the pure black adaptive background. The two letters are drawn as
+         5x7 cells, the same grid the boot sequence uses, so the icon and the splash mark
+         are the same letterforms rather than two interpretations of a logo. -->
+    <path android:fillColor="#FFFFFFFF"
+        android:pathData="M24.00,33.00 h6.00 v6.00 h-6.00 z M30.00,33.00 h6.00 v6.00 h-6.00 z M36.00,33.00 h6.00 v6.00 h-6.00 z M18.00,39.00 h6.00 v6.00 h-6.00 z M42.00,39.00 h6.00 v6.00 h-6.00 z M18.00,45.00 h6.00 v6.00 h-6.00 z M42.00,45.00 h6.00 v6.00 h-6.00 z M18.00,51.00 h6.00 v6.00 h-6.00 z M42.00,51.00 h6.00 v6.00 h-6.00 z M18.00,57.00 h6.00 v6.00 h-6.00 z M42.00,57.00 h6.00 v6.00 h-6.00 z M18.00,63.00 h6.00 v6.00 h-6.00 z M42.00,63.00 h6.00 v6.00 h-6.00 z M24.00,69.00 h6.00 v6.00 h-6.00 z M30.00,69.00 h6.00 v6.00 h-6.00 z M36.00,69.00 h6.00 v6.00 h-6.00 z M66.00,33.00 h6.00 v6.00 h-6.00 z M72.00,33.00 h6.00 v6.00 h-6.00 z M78.00,33.00 h6.00 v6.00 h-6.00 z M60.00,39.00 h6.00 v6.00 h-6.00 z M84.00,39.00 h6.00 v6.00 h-6.00 z M60.00,45.00 h6.00 v6.00 h-6.00 z M60.00,51.00 h6.00 v6.00 h-6.00 z M60.00,57.00 h6.00 v6.00 h-6.00 z M60.00,63.00 h6.00 v6.00 h-6.00 z M84.00,63.00 h6.00 v6.00 h-6.00 z M66.00,69.00 h6.00 v6.00 h-6.00 z M72.00,69.00 h6.00 v6.00 h-6.00 z M78.00,69.00 h6.00 v6.00 h-6.00 z" />
+</vector>

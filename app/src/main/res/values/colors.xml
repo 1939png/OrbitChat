@@ -1,0 +1,6 @@
+<resources>
+    <color name="ink">#050505</color>
+    <color name="panel">#101110</color>
+    <color name="line">#252725</color>
+    <color name="accent">#D8FF67</color>
+</resources>

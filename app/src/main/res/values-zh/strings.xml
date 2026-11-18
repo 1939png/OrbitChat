@@ -1,0 +1,5 @@
+<resources>
+    <!-- Same as the default label: the brand is the Latin wordmark on every locale,
+         so there is no translated name to fall back to. -->
+    <string name="app_name">OPEN CHAT</string>
+</resources>

@@ -1,0 +1,22 @@
+# Gradle
+.gradle/
+build/
+app/build/
+
+# Local configuration
+local.properties
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+
+# Build outputs
+*.apk
+*.aab
+*.hprof
+*.class
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
