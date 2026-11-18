@@ -1,15 +1,13 @@
 # Orbit Chat
 
-Native Java chat client for square-screen watches and compact Android devices. Supports Android 8.0 (API 26) and newer, OpenAI-compatible Chat Completions, and Anthropic Messages. The app uses platform Views, `HttpURLConnection`, SQLite, and private SharedPreferences; it has no Kotlin, Compose, AndroidX, or runtime networking dependencies.
+面向方形屏手表和小尺寸安卓设备的原生 Java 聊天客户端。支持 Android 8.0（API 26）及以上，可对接 OpenAI 兼容的 Chat Completions 与 Anthropic Messages。只使用平台 View、`HttpURLConnection`、SQLite 和私有 SharedPreferences，不依赖 Kotlin、Compose、AndroidX 或任何第三方网络库。
 
-## Build
+## 构建
 
-Project settings: Android Gradle Plugin 8.7.3, Gradle 8.9 wrapper distribution, Android SDK Platform 35, `minSdk 26`, `targetSdk 28`. Use JDK 17 for the supported AGP 8.7 toolchain.
+- 工具链：AGP 8.7.3、Gradle 8.9、Android SDK Platform 35，`minSdk 26`、`targetSdk 28`，使用 JDK 17。
+- 仓库未包含 `gradle-wrapper.jar`。装好 Gradle 后先执行 `gradle wrapper --gradle-version 8.9`，再运行 `gradlew.bat :app:assembleDebug`（Windows）或 `./gradlew :app:assembleDebug`。
+- Java 源码已用 JDK 25 对 Android 35 的 `android.jar` 独立编译通过；Gradle 打包和真机运行尚未验证。
 
-The repository does not include `gradle-wrapper.jar`. With Gradle installed, generate the wrapper using `gradle wrapper --gradle-version 8.9`, then run `gradlew.bat :app:assembleDebug` on Windows or `./gradlew :app:assembleDebug` on Unix-like systems.
+## 接口与验收
 
-The Java sources were independently compiled against Android 35 `android.jar` with JDK 25 and Java 8 source/target compatibility. A Gradle APK build and runtime/device test have not been completed in the current environment.
-
-## Integration and acceptance
-
-See [CONTRACT.md](CONTRACT.md) for the actual package/API contract, provider endpoint forms, worker-thread requirements, and device/API acceptance matrix. Main sources live in `app/src/main/java/com/example/watchchat/`.
+包名与接口约定、供应商端点形式、线程要求、设备验收矩阵见 [CONTRACT.md](CONTRACT.md)。主源码位于 `app/src/main/java/com/example/watchchat/`。
